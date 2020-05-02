@@ -1,0 +1,7 @@
+sudo apt-get install imagemagick
+
+# keep aspect ratio
+mogrify -resize 320x240 some.jpg
+
+# don't keep aspect ratio
+mogrify -resize 320x240! some.jpg
